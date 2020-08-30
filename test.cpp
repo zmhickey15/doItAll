@@ -11,7 +11,7 @@ int main()
 	cin >> n;
 	int out=getValue(n);
 	cout <<endl<<out;
-*/
+
 for (int k=1; k <=1000; k++)
 {
 	int exp=0;
@@ -26,7 +26,22 @@ for (int k=1; k <=1000; k++)
 	  cout << k << endl;
 	else cout <<endl;
 }
-		
+*/
+int n = 0;
+cout <<"enter a number: ";
+cin >> n;
+  int p1 =1;
+  int p2 =0;
+  int fib=1;
+  for (int k=1; k<n; k++)
+       {
+     fib = p1 +p2;
+     p2= p1;
+     p1=fib;	
+      
+	       
+} 	
+cout <<fib;			
 return 0;
 }
 
